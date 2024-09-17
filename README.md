@@ -1,2 +1,7 @@
 # MSc-CS-Dissertation
- This dissertation examines the evolving sentiment of Brexit coverage in The Guardian (2007-2024) through over one million articles. It extracts Subject-Verb-Object triplets to create sentiment networks focused on "Brexit," analyzing shifts during key events. Advanced NLP techniques and network centrality metrics were employed for insights
+
+This dissertation investigates the evolving sentiment of Brexit coverage in The Guardian over a period spanning from 2007 to 2024. Utilizing a dataset comprising over one million articles, we extracted Subject-Verb-Object (SVO) triplets to construct a series of temporal sentiment networks centered around the term "Brexit". Our analysis focuses on key geopolitical events related to Brexit, examining how sentiment shifted in response to these events and identifying the main words associated with these shifts.
+
+To achieve this, we developed a custom SVO parser and employed advanced natural language processing (NLP) techniques to filter and process the data. The resulting networks were analyzed using various centrality metrics to understand the prominence and influence of specific entities within the Brexit discourse. Before plotting the networks, we explored the lexical diversity and readability of the articles and understood the data, to ensure the reliability and coherence of the content analyzed.
+
+The findings reveal significant in media sentiment around Brexit, particularly during major events such as the Brexit referendum, the invocation of Article 50, and the UK's official departure from the EU. This research contributes to the field of computational social science by demonstrating the utility of network analysis and NLP in understanding the dynamics of media sentiment over time.
